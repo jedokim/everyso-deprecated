@@ -1,1 +1,8 @@
-note because this is in a monorepo had to remove react, react-dom, and react-native-web deps and change metro.config.js a bit.
+# everyso
+Every so often, we need to do things. Why not use an app that tracks everything for you?
+
+# Welcome to your Expo app 👋
+
+1. To run, yarn start.
+
+This project was created with npx create-tamagui@latest --template expo-router
