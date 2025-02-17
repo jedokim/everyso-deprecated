@@ -1,4 +1,4 @@
-# everyso
+# EverySo
 Every so often, we need to do things. Why not use an app that tracks everything for you?
 
 # Welcome to your Expo app 👋
