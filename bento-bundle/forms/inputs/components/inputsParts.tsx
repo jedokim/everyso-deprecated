@@ -67,7 +67,7 @@ export const defaultInputGroupStyles = {
 } as const
 
 const InputGroupFrame = styled(XGroup, {
-  justifyContent: 'space-between',
+  justify: 'space-between',
   context: InputContext,
   variants: {
     unstyled: {
@@ -161,14 +161,14 @@ const InputImpl = InputFrame.styleable((props, ref) => {
 })
 
 const InputSection = styled(XGroup.Item, {
-  justifyContent: 'center',
+  justify: 'center',
   alignItems: 'center',
   context: InputContext,
 })
 
 const Button = styled(TButton, {
   context: InputContext,
-  justifyContent: 'center',
+  justify: 'center',
   alignItems: 'center',
 
   variants: {
@@ -194,7 +194,7 @@ const Button = styled(TButton, {
 // Icon starts
 
 export const InputIconFrame = styled(View, {
-  justifyContent: 'center',
+  justify: 'center',
   alignItems: 'center',
   context: InputContext,
 
@@ -324,7 +324,7 @@ export const Input = withStaticProperties(InputContainerFrame, {
 
 export const InputNew = () => {
   return (
-    <Input w={400} size="$3">
+    <Input width={400} size="$3">
       <Input.Box>
         <Input.Section>
           <Input.Icon>
@@ -332,7 +332,7 @@ export const InputNew = () => {
           </Input.Icon>
         </Input.Section>
         <Input.Section>
-          <Input.Area paddingLeft={0} />
+          <Input.Area borderLeftWidth={0} />
         </Input.Section>
         <Input.Section>
           <Input.Button>

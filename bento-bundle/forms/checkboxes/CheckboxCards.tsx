@@ -49,7 +49,7 @@ export function CheckboxCards() {
   return (
     <View width="100%" ai="center">
       <Checkboxes
-        minWidth="100%"
+        minW="100%"
         values={values}
         onValuesChange={(values) => toggleValues(values)}
         gap="$4"
@@ -64,16 +64,16 @@ export function CheckboxCards() {
             <Checkboxes.FocusGroup.Item
               value={item.title}
               key={item.title}
-              maxWidth="100%"
-              minWidth="100%"
+              maxW="100%"
+              minW="100%"
               $group-window-gtSm={{
                 maxWidth: '49%',
                 minWidth: '49%',
               }}
             >
-              <Checkboxes.Card flex={1} minWidth="100%" gap="$6">
+              <Checkboxes.Card flex={1} minW="100%" gap="$6">
                 <View f={1} flexDirection="column" gap="$3">
-                  <View flexDirection="row" justifyContent="space-between">
+                  <View flexDirection="row" justify="space-between">
                     <View
                       flexDirection="row"
                       theme={item.color}
